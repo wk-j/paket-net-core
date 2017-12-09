@@ -12,10 +12,10 @@ paket add FSharp.Data --project src/Hello/Hello.fsproj
 
 ```bash
 dotnet restore src/Hello/Hello.fsproj
-dotnet run src/Hello/Hello.fsproj
+dotnet run --project src/Hello/Hello.fsproj
 ```
 
-## Fixed Type Provider Issue
+## Fixed Type Provider Issue on mac OS
 
 ```xml
   <PropertyGroup>
